@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lint>
+    <issue id="InflateParams">
+        <ignore path="src/com/pilrhealth/android/samples/InstrumentSettingsItemAdapter.java" />
+        <ignore path="src/com/pilrhealth/android/samples/PeriodsItemAdapter.java" />
+        <ignore path="src/com/pilrhealth/locationref/sample/InstrumentSettingsItemAdapter.java" />
+        <ignore path="src/com/pilrhealth/locationref/sample/PeriodsItemAdapter.java" />
+    </issue>
+    <issue id="SimpleDateFormat">
+        <ignore path="src/com/pilrhealth/android/pilrcorelib/util/ISODateHelper.java" />
+        <ignore path="src/com/pilrhealth/android/samples/UserSettingActivity.java" />
+        <ignore path="src/com/pilrhealth/locationref/sample/UserSettingActivity.java" />
+    </issue>
+    <issue id="ViewHolder">
+        <ignore path="src/com/pilrhealth/android/samples/InstrumentSettingsItemAdapter.java" />
+        <ignore path="src/com/pilrhealth/android/samples/PeriodsItemAdapter.java" />
+        <ignore path="src/com/pilrhealth/locationref/sample/InstrumentSettingsItemAdapter.java" />
+        <ignore path="src/com/pilrhealth/locationref/sample/PeriodsItemAdapter.java" />
+    </issue>
+</lint>

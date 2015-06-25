@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <PreferenceCategory android:title="@string/authentication_label" >
+        <Preference
+            android:key="@string/login_key"
+            android:summary="@string/login_summ"
+            android:title="@string/login_title" />
+        <Preference
+            android:key="@string/part_info_key"
+            android:summary="@string/part_info_summ"
+            android:title="@string/part_info_title" />
+        <Preference
+            android:key="@string/logout_key"
+            android:summary="@string/logout_summ"
+            android:title="@string/logout_title" />
+
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/sync_label" >
+        <Preference
+            android:key="@string/period_key"
+            android:summary="@string/period_summ"
+            android:title="@string/period_title" />
+        <Preference
+            android:key="@string/instrument_sett_key"
+            android:summary="@string/instrument_sett_summ"
+            android:title="@string/instrument_sett_title" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/collect_label" >
+        <Preference
+            android:key="@string/start_key"
+            android:summary="@string/start_summ"
+            android:title="@string/start_title" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/upload_label" >
+        <Preference
+            android:key="@string/upload_key"
+            android:summary="@string/upload_summ"
+            android:title="@string/upload_title" />
+        <Preference
+            android:key="@string/upload_sample_key"
+            android:summary="@string/upload_sample_summ"
+            android:title="@string/upload_sample_title" />
+    </PreferenceCategory>
+
+</PreferenceScreen>
