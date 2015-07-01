@@ -1,10 +1,36 @@
-## Introduction 
-This is a sample Android app that demonstrates how to use the Android library found [here](https://github.com/pilrhealth.com/pilr-io-library-android) to interface with the PiLR platform.  It logs location data, and provides a login, sync, and data upload capability.
+# pilr-sampleclient-android
 
-The minimum sdk version is 8.
+## Introduction 
+Sample android application for interfacing with the PILR API.
+
+![alt tag](https://github.com/MeiResearchLtd/pilr-sampleclient-android/blob/feature/one-server/docs/sample-app.png)
+
+## Usage
+
+- Import [lib-pilrio-android](https://github.com/MeiResearchLtd/lib-pilrio-android);
+
+- Import [pilr-sampleclient-android](https://github.com/MeiResearchLtd/pilr-sampleclient-android);
+
+- Where you are going to find :
+
+|  How To				|     class                       	|  Line		|
+|---------------|-----------------------------------|---------|
+| Initialize				| UserSettingActivity   		| 102 and 105	|
+| Validate Login			| UserSettingActivity		| 112		|
+| Fetch Participant info		| UserSettingActivity		| 190		|
+| Fetch Instrument Settings info	| UserSettingActivity		| 247		|
+| Fetch project periods info		| UserSettingActivity		| 226		|
+| Upload data	- single line		| UserSettingActivity		| 399		|
+| Upload data	- list			| UserSettingActivity		| 374		|
+
+
 
 ## License
-GPL v2.  See the LICENSE file.
+
+TBD.
 
 ## Additional Information
-If you want to know more about the PiLR platform, checkout the developer wiki pages [here](https://github.com/pilrhealth/developer/wiki), or for information specific to the PiLR API and mobile apps, go [here](https://github.com/pilrhealth/developer/wiki/Mobile-App-Integration).
+If you want to know more about pilrio android library, access [lib-pilrio-android](https://github.com/MeiResearchLtd/lib-pilrio-android/blob/master/README.md);
+
+
+If you want to know more about PiLR API, access [PiLR API doc](https://github.com/MeiResearchLtd/s4r-general/wiki/impl_api-security) and [PiLR API response samples](https://github.com/MeiResearchLtd/s4r-general/wiki/devguide_rest-api).
